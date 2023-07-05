@@ -1,0 +1,101 @@
+/* Cabeçalho e menu */
+
+.cabecalho {
+    background-color: rgb(0, 107, 0);
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    font-family: 'serif';
+}
+
+.logo {
+    width: 6%;
+    position: absolute;
+    top: 40px;
+    left: 70px;
+}
+
+.menu-itens {
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 20px;
+
+}
+
+.menu-itens a {
+    text-decoration: none;
+    color:white;
+}
+
+.titulosite {
+    justify-content: center;
+    margin: center 0px 20px 400px;
+    font-size: 40px;
+}
+
+.menu-itens:hover a { 
+    color: rgb(33, 58, 33);
+
+}
+
+/* Área sobre biotecnologia */
+
+#sobre-bio {
+    background-image: linear-gradient(rgb(0, 107, 0), rgb(47, 201, 63));
+    display: flex;
+    padding: 15px 0px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.divisao {
+    width: 35%;
+}
+
+.titulos-geral {
+    font-size: 24px;
+}
+
+.paragrafos { 
+    text-indent: 20px;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+
+}
+
+.foto {
+    width: 28%;
+
+}
+
+/* Área sobre o projeto */
+
+projeto#area-projeto {
+    padding: 24px 0;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.titulo-projeto {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.paragrafo-projeto {
+    text-align: center;
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+
+
+/* Área atualizações */
